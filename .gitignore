@@ -1,0 +1,35 @@
+# Rust / Cargo
+/target/
+**/*.rs.bk
+*.pdb
+
+# IDEs and editors
+/.idea/
+/.vscode/
+/.fleet/
+*.iml
+*.swp
+*.swo
+*~
+
+# Operating system files
+.DS_Store
+Thumbs.db
+
+# Local configuration and secrets
+.env
+.env.*
+!.env.example
+
+# Logs and temporary files
+*.log
+*.tmp
+*.temp
+
+# Test coverage and profiling output
+/coverage/
+/tarpaulin-report.html
+*.profraw
+*.profdata
+
+/model/
